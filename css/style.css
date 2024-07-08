@@ -75,3 +75,142 @@ header {
   line-height: 58px;
   margin-bottom: 50px;
 }
+
+.mid-night-party {
+  height: 600px;
+  background-image: linear-gradient(
+      90deg,
+      rgb(7, 2, 17),
+      rgba(7, 2, 17, 0) 100%
+    ),
+    url(../assets/images/Vectorrr.png);
+  margin-bottom: 100px;
+}
+
+.mid-night-party .night-content {
+  color: #fff;
+}
+
+.mid-margin-contetn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 80px;
+  margin: 60px 200px;
+  padding-top: 80px;
+}
+
+.night-content h2 {
+  color: rgb(255, 255, 255);
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 98px;
+  letter-spacing: 11%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.night-content p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.night-content button {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  background: none;
+  padding: 15px 15px;
+}
+
+.join-section {
+  height: 480px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.join-div{
+font-size: 32px;
+font-weight: 600;
+line-height: 56px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+}
+
+.join-div span{
+    color: rgb(255, 0, 0);
+}
+
+.offer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 30px;
+}
+
+.offer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.offer-content h5{
+    color: rgb(255, 0, 0);
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+}
+
+.offer-content h2{
+    color: rgb(7, 2, 17);
+font-size: 48px;
+font-weight: 900;
+line-height: 60px;
+letter-spacing: 0%;
+}
+
+.offer-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0%;
+}
+
+.offer-img{
+    box-sizing: border-box;
+border: 15px solid rgb(255, 0, 0);
+border-radius: 50%;
+padding: 25px;
+}
+
+.offer-end h2{
+    color: rgb(255, 0, 0);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.offer-end p{
+    color: rgba(7, 2, 17, 0.6);
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
