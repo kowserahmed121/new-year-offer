@@ -145,72 +145,201 @@ header {
   align-items: center;
 }
 
-.join-div{
-font-size: 32px;
-font-weight: 600;
-line-height: 56px;
-letter-spacing: 0%;
-text-align: center;
-text-transform: capitalize;
+.join-div {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
 }
 
-.join-div span{
-    color: rgb(255, 0, 0);
+.join-div span {
+  color: rgb(255, 0, 0);
 }
 
-.offer-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 30px;
-    padding: 0px 30px;
+.offer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 30px;
 }
 
-.offer-content{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+.offer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.offer-content h5{
-    color: rgb(255, 0, 0);
-font-size: 24px;
-font-weight: 600;
-line-height: 29px;
-}
-
-.offer-content h2{
-    color: rgb(7, 2, 17);
-font-size: 48px;
-font-weight: 900;
-line-height: 60px;
-letter-spacing: 0%;
+.offer-content h5 {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
 }
 
-.offer-content p{
-    color: rgba(7, 2, 17, 0.6);
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0%;
+.offer-content h2 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0%;
 }
 
-.offer-img{
-    box-sizing: border-box;
-border: 15px solid rgb(255, 0, 0);
-border-radius: 50%;
-padding: 25px;
+.offer-content p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0%;
 }
 
-.offer-end h2{
-    color: rgb(255, 0, 0);
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 58px;
+.offer-img {
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  border-radius: 50%;
+  padding: 25px;
 }
 
-.offer-end p{
-    color: rgba(7, 2, 17, 0.6);
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
+.offer-end h2 {
+  color: rgb(255, 0, 0);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.offer-end p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.holiday-offer h4 {
+  color: rgb(7, 2, 17);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.holiday-offer {
+  margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.holiday-offer span {
+  color: rgb(255, 0, 0);
+}
+
+.holiday-offer h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 91px;
+}
+
+.holiday-offer p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.bg-color-div {
+  border-radius: 16px 0px 16px 16px;
+  padding: 170px 0px;
+  background: rgb(255, 0, 0);
+  position: relative;
+  top: 580px;
+  margin-top: -240px;
+  z-index: -1;
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container .img {
+  position: absolute;
+  bottom: 389px;
+  right: -6px;
+}
+
+.grid-img-container h5 {
+  color: rgb(255, 0, 0);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.grid-img-container h2 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
+.grid-text {
+  margin: 0px 30px;
+}
+
+.grid-img-container p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.grid-img {
+  margin: 70px 0px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.subcribe-section {
+  padding: 80px 200px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+}
+
+.subcribe-section h3 {
+  color: rgb(7, 2, 17);
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: capitalize;
+}
+
+.subcribe-section p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.subcribe-section input[type="text"] {
+  width: 400px;
+  border-radius: 50px 0px 0px 50px;
+  background: rgb(255, 255, 255);
+  padding: 20px 20px;
+  border: none;
+  outline: none;
+}
+
+.subcribe-section input[type="submit"] {
+    position: relative;
+    left: -5px;
+  width: 150px;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  padding: 20px 20px;
+  border: none;
+  outline: none;
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  color: #fff;
 }
